@@ -12,6 +12,7 @@ body {
 .header-wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .left-side {
     display: flex;
@@ -35,4 +36,28 @@ body {
     background-color: transparent;
     border-color: transparent;
     cursor: pointer;
+}
+.promo {
+    background-color: #F1E4E6;
+}
+.promo-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promo-image-man {
+    max-width: 800px;
+}
+.promo-title {
+     margin: 0 0 0 91px;
+     color: #222222;
+     font-weight: 900;
+     font-size: 48px;
+     line-height: 58px;
+     text-transform: uppercase;
+}
+.promo-subtitle {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
 }
