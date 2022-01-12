@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    background: #222222;
+    padding: 18px 0;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.left-side {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin: 0 41px 0 0;
+}
+.search-button {
+    background-color: transparent;
+    border-color: transparent;
+}
+.right-side nav {
+    display: flex;
+    align-items: center;
+}
+.cart, .profile {
+    margin: 0 0 0 33px;
+}
+.header-menu {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
