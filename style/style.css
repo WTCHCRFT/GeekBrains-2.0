@@ -70,3 +70,43 @@ body {
 .promo-subtitle__red {
     color: #F16D7F;;
 }
+.offers {
+    padding: 65px 0 96px 0;
+}
+.offers-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.offers-item {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 260px;
+    background-image: url(../img/for-women.jpg);
+    background-size: cover;
+}
+.accesories {
+    max-width: 100%;
+    background-image: url(../img/accesories.jpg);
+    margin-top: 30px;
+}
+.offers-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+
+}
+.top-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
