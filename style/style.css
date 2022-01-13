@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 .wrapper {
     max-width: 1140px;
@@ -42,22 +43,30 @@ body {
 }
 .promo-wrap {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .promo-image-man {
     max-width: 800px;
+    width: 100%;
 }
 .promo-title {
-     margin: 0 0 0 91px;
+     padding: 0 0 0 16px;
      color: #222222;
      font-weight: 900;
      font-size: 48px;
      line-height: 58px;
      text-transform: uppercase;
+     max-width: 377px;
+     border-left: 12px solid #F16D7F;
 }
 .promo-subtitle {
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
+    white-space: nowrap;
+}
+.promo-subtitle__red {
+    color: #F16D7F;;
 }
