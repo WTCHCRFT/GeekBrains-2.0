@@ -120,3 +120,18 @@ body {
     margin-bottom: 30px;
     background: #F8F8F8;
 }
+.feature-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.feature-item {
+    text-align: center;
+    color: #FBFBFB;
+    max-width: 360px;
+    padding: 0 30px;
+}
+.feature {
+    background: #222224;
+    padding: 104px 0;
+}
