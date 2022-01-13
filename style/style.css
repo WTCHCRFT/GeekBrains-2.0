@@ -110,3 +110,13 @@ body {
     display: block;
     text-align: center;
 }
+.goods-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.goods-item {
+    max-width: 360px;
+    margin-bottom: 30px;
+    background: #F8F8F8;
+}
