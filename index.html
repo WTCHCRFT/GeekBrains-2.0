@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -14,167 +14,186 @@
 </head>
 
 <body>
-</body>
-<div class="header">
-    <div class="wrapper header-wrap">
-        <div class="left-side">
-            <!-- Не знаю как лучше называть подобные блоки -->
-            <div class="logo"><a href="index.html"><img src="img/logo.svg" alt="Лого сайта"></a></div>
-            <div class="search"><button class="search-button"><img src="img/search.svg" alt="Поиск по сайту"></button>
+    <div class="header">
+        <div class="wrapper header__wrap">
+            <div class="header__col">
+                <div class="header__logo">
+                    <a href="index.html" class="header__logo_link">
+                        <img src="img/logo.svg" class="header__logo_link" alt="Лого сайта">
+                    </a>
+                </div>
+                <div class="header__search">
+                    <button class="header__search_button">
+                        <img src="img/search.svg" alt="Поиск по сайту">
+                    </button>
+                </div>
+            </div>
+            <div class="header__col">
+                <nav class="header__navigation">
+                    <button class="header__menu_icon">
+                        <img src="img/header-menu.svg" alt="Меню сайта">
+                    </button>
+                    <a class="header__profile_icon" href="#">
+                        <img src="img/profile.svg" alt="Профиль">
+                    </a>
+                    <a class="header__cart_icon" href="#">
+                        <img src="img/cart.svg" alt="Корзина">
+                    </a>
+                </nav>
             </div>
         </div>
-        <div class="right-side">
-            <!-- Тоже самое -->
-            <nav class="header-navigation">
-                <button class="header-menu"><img src="img/header-menu.svg" alt="Меню сайта"></button>
-                <a class="profile" href="#"><img src="img/profile.svg" alt="Профиль"></a>
-                <a class="cart" href="#"><img src="img/cart.svg" alt="Корзина"></a>
-            </nav>
-        </div>
     </div>
-</div>
-<div class="promo">
-    <div class="promo-wrap">
-        <div class="promo-image"><img class="promo-image-man" src="img/man-in-promo.png" alt="Мужик в куртке"></div>
-        <!-- Скорее всего его на background нужно ставить -->
-        <div class="promo-text">
-            <h1 class="promo-title">the brand <span class="promo-subtitle">of luxerious<span
-                        class="promo-subtitle__red">
-                        fashion</span></span></h1>
-            <!-- Вот тут не понятно как лучше разделить заголовок -->
-        </div>
+    <div class="promo">
+        <div class="promo-wrap">
+            <div class="promo-image">
+                <img class="promo-image-man" src="img/man-in-promo.png" alt="Мужик в куртке">
+            </div>
+            <!-- Скорее всего его на background нужно ставить -->
+            <div class="promo-text">
+                <h1 class="promo-title">the brand <span class="promo-subtitle">of luxerious<span
+                            class="promo-subtitle__red">
+                            fashion</span></span></h1>
+                <!-- Вот тут не понятно как лучше разделить заголовок -->
+            </div>
 
+        </div>
     </div>
-</div>
-<div class="offers">
-    <div class="wrapper">
-        <div class="offers-items">
-            <div class="offers-item women">
-                <p class="offers-title"><span class="top-title">30% OFF</span>FOR WOMEN</p>
-            </div>
-            <div class="offers-item men ">
-                <p class="offers-title"><span class="top-title">30% OFF</span>FOR WOMEN</p>
-            </div>
-            <div class="offers-item kids">
-                <p class="offers-title"><span class="top-title">30% OFF</span>FOR WOMEN</p>
-            </div>
-            <div class="offers-item accesories">
-                <p class="offers-title"><span class="top-title">30% OFF</span>FOR WOMEN</p>
+    <div class="offers">
+        <div class="wrapper">
+            <div class="offers-items">
+                <div class="offers-item women">
+                    <p class="offers-title"><span class="top-title">30% OFF</span>FOR WOMEN</p>
+                </div>
+                <div class="offers-item men ">
+                    <p class="offers-title"><span class="top-title">30% OFF</span>FOR WOMEN</p>
+                </div>
+                <div class="offers-item kids">
+                    <p class="offers-title"><span class="top-title">30% OFF</span>FOR WOMEN</p>
+                </div>
+                <div class="offers-item accesories">
+                    <p class="offers-title"><span class="top-title">30% OFF</span>FOR WOMEN</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="goods">
-    <div class="wrapper">
-        <h2>Fetured Items</h2>
-        <p>Shop for items based on what we featured in this week</p>
-        <div class="goods-items">
-            <div class="goods-item">
-                <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
-                <div class="goods-description">
-                    <h3 class="goods-description-title">ellery x m'o capsule</h3>
-                    <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
-                        Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="goods-description-price">$52.00</p>
+    <div class="goods">
+        <div class="wrapper">
+            <h2>Fetured Items</h2>
+            <p>Shop for items based on what we featured in this week</p>
+            <div class="goods-items">
+                <div class="goods-item">
+                    <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
+                    <div class="goods-description">
+                        <h3 class="goods-description-title">ellery x m'o capsule</h3>
+                        <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="goods-description-price">$52.00</p>
+                    </div>
+                </div>
+                <div class="goods-item">
+                    <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
+                    <div class="goods-description">
+                        <h3 class="goods-description-title">ellery x m'o capsule</h3>
+                        <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="goods-description-price">$52.00</p>
+                    </div>
+                </div>
+                <div class="goods-item">
+                    <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
+                    <div class="goods-description">
+                        <h3 class="goods-description-title">ellery x m'o capsule</h3>
+                        <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="goods-description-price">$52.00</p>
+                    </div>
+                </div>
+                <div class="goods-item">
+                    <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
+                    <div class="goods-description">
+                        <h3 class="goods-description-title">ellery x m'o capsule</h3>
+                        <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="goods-description-price">$52.00</p>
+                    </div>
+                </div>
+                <div class="goods-item">
+                    <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
+                    <div class="goods-description">
+                        <h3 class="goods-description-title">ellery x m'o capsule</h3>
+                        <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="goods-description-price">$52.00</p>
+                    </div>
+                </div>
+                <div class="goods-item">
+                    <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
+                    <div class="goods-description">
+                        <h3 class="goods-description-title">ellery x m'o capsule</h3>
+                        <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="goods-description-price">$52.00</p>
+                    </div>
                 </div>
             </div>
-            <div class="goods-item">
-                <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
-                <div class="goods-description">
-                    <h3 class="goods-description-title">ellery x m'o capsule</h3>
-                    <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
-                        Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="goods-description-price">$52.00</p>
+            <div class="goods-button"><button>Browse All Product</button></div>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="wrapper">
+            <div class="feature-items">
+                <div class="feature-item">
+                    <img src="img/track.svg" alt="Грузовки">
+                    <h4>Free Delivery</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                        models.
+                    </p>
                 </div>
-            </div>
-            <div class="goods-item">
-                <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
-                <div class="goods-description">
-                    <h3 class="goods-description-title">ellery x m'o capsule</h3>
-                    <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
-                        Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="goods-description-price">$52.00</p>
+                <div class="feature-item">
+                    <img src="img/sale.svg" alt="Скидки">
+                    <h4>Sales & discounts</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                        models.
+                    </p>
                 </div>
-            </div>
-            <div class="goods-item">
-                <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
-                <div class="goods-description">
-                    <h3 class="goods-description-title">ellery x m'o capsule</h3>
-                    <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
-                        Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="goods-description-price">$52.00</p>
-                </div>
-            </div>
-            <div class="goods-item">
-                <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
-                <div class="goods-description">
-                    <h3 class="goods-description-title">ellery x m'o capsule</h3>
-                    <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
-                        Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="goods-description-price">$52.00</p>
-                </div>
-            </div>
-            <div class="goods-item">
-                <div class="goods-image"> <img src="img/goods-img-1.jpg" alt="Куртка"> </div>
-                <div class="goods-description">
-                    <h3 class="goods-description-title">ellery x m'o capsule</h3>
-                    <p class="goods-description-text">Known for her sculptural takes on traditional tailoring,
-                        Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="goods-description-price">$52.00</p>
+                <div class="feature-item">
+                    <img src="img/crown.svg" alt="Корона">
+                    <h4>Quality assurance</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                        models.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="goods-button"><button>Browse All Product</button></div>
     </div>
-</div>
-<div class="feature">
-    <div class="wrapper">
-        <div class="feature-items">
-            <div class="feature-item">
-                <img src="img/track.svg" alt="Грузовки">
-                <h4>Free Delivery</h4>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+    <div class="footer">
+        <div class="wrapper footer-wrap">
+            <div class="footer-quote">
+                <img src="img/quote.png" alt="Девушка">
+                <p class="quote">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
                 </p>
             </div>
-            <div class="feature-item">
-                <img src="img/sale.svg" alt="Скидки">
-                <h4>Sales & discounts</h4>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
+            <div class="subscribe">
+                <h3 class="subscribe-title">subscribe </h3>
+                <p class="subscribe-subtitle">for our newletter and promotion</p>
+                <form action="#">
+                    <input type="text" class="subscribe-email" placeholder="Enter Your Email">
+                    <input type="submit" class="subscribe-button" value="Subscribe">
+                </form>
             </div>
-            <div class="feature-item">
-                <img src="img/crown.svg" alt="Корона">
-                <h4>Quality assurance</h4>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
+        </div>
+        <div class="footer-line">
+            <div class="wrapper footer-line-wrap">
+                <div class="footer-col">
+                    <p>© 2021 Brand All Rights Reserved.</p>
+                </div>
+                <div class="footer-col"><img src="img/facebook.svg" alt="Facebook"><img src="img/inst.svg"
+                        alt="instagram"><img src="img/pin.svg" alt="pinterest"><img src="img/twit.svg" alt="twitter">
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="footer">
-    <div class="wrapper footer-wrap">
-        <div class="footer-quote">
-            <img src="img/quote.png" alt="Девушка">
-            <p class="quote">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
-        </div>
-        <div class="subscribe">
-            <h3 class="subscribe-title">subscribe </h3>
-            <p class="subscribe-subtitle">for our newletter and promotion</p>
-            <form action="#">
-                <input type="text" class="subscribe-email" placeholder="Enter Your Email">
-                <input type="submit" class="subscribe-button" value="Subscribe">
-            </form>
-        </div>
-    </div>
-    <div class="footer-line">
-        <div class="wrapper footer-line-wrap">
-            <div class="footer-col">
-                <p>© 2021 Brand All Rights Reserved.</p>
-            </div>
-            <div class="footer-col"><img src="img/facebook.svg" alt="Facebook"><img src="img/inst.svg"
-                    alt="instagram"><img src="img/pin.svg" alt="pinterest"><img src="img/twit.svg" alt="twitter"></div>
-        </div>
-    </div>
-</div>
+</body>
+
 
 </html>

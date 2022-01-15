@@ -10,30 +10,31 @@ body {
     background: #222222;
     padding: 18px 0;
 }
-.header-wrap {
+.header__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.left-side {
+.header__col {
     display: flex;
     align-items: center;
 }
-.logo {
+.header__logo {
     margin: 0 41px 0 0;
 }
-.search-button {
+.header__search_button {
     background-color: transparent;
     border-color: transparent;
+    cursor: pointer;
 }
-.right-side nav {
+.header__col .header__navigation {
     display: flex;
     align-items: center;
 }
-.cart, .profile {
+.header__profile_icon, .header__cart_icon {
     margin: 0 0 0 33px;
 }
-.header-menu {
+.header__menu_icon {
     background-color: transparent;
     border-color: transparent;
     cursor: pointer;
