@@ -42,33 +42,41 @@ body {
 .promo {
     background-color: #F1E4E6;
 }
-.promo-wrap {
+.promo__wrap {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    max-width: 1600px;
-    margin: 0 auto;
+    background-image: url(../img/man-in-promo.png);
+    background-repeat: no-repeat;
+    background-position-x: -210px;
+    background-position-y: bottom;
+    height: 768px;
 }
-.promo-image-man {
+/* .promo__image {
+
+} */
+/* .promo-image-man {
     max-width: 800px;
     width: 100%;
+} */
+.promo__title {
+    margin-right: 90px;
+    padding: 0 0 0 16px;
+    color: #222222;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    max-width: 377px;
+    border-left: 12px solid #F16D7F;
 }
-.promo-title {
-     padding: 0 0 0 16px;
-     color: #222222;
-     font-weight: 900;
-     font-size: 48px;
-     line-height: 58px;
-     text-transform: uppercase;
-     max-width: 377px;
-     border-left: 12px solid #F16D7F;
-}
-.promo-subtitle {
+.promo__subtitle {
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
     white-space: nowrap;
 }
-.promo-subtitle__red {
+.promo__subtitle_red {
     color: #F16D7F;;
 }
 .offers {
