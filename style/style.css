@@ -82,35 +82,43 @@ body {
 .offers {
     padding: 65px 0 96px 0;
 }
-.offers-items {
+.offers__wrap {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     
 }
-.offers-item {
+.offers__item {
     width: 100%;
     max-width: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 260px;
-    background-image: url(../img/for-women.jpg);
-    background-size: cover;
 }
-.accesories {
+.offers__item_women {
+background-image: url(../img/offers-img-1.jpg);
+}
+.offers__item_men {
+    background-image: url(../img/offers-img-2.jpg);
+}
+.offers__item_kids {
+    background-image: url(../img/offers-img-3.jpg);
+}
+.offers__item_accesories {
     max-width: 100%;
-    background-image: url(../img/accesories.jpg);
+    background-image: url(../img/offers-img-4.jpg);
     margin-top: 30px;
+    min-height: 180px;
 }
-.offers-title {
+.offers__title {
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #F16D7F;
 
 }
-.top-title {
+.top__title {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
