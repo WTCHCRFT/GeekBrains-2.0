@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="wrapper header__wrap">
             <div class="header__col">
                 <div class="header__logo">
@@ -42,40 +42,40 @@
                 </nav>
             </div>
         </div>
-    </div>
-    <div class="promo">
-        <div class="wrapper promo__wrap">
-            <!-- <div class="promo__image">
-                <img class="promo-image-man" src="img/man-in-promo.png" alt="Мужик в куртке">
-            </div> -->
-            <div class="promo__text">
-                <h1 class="promo__title">the brand <span class="promo__subtitle">of luxerious<span
-                            class="promo__subtitle_red">
-                            fashion</span></span></h1>
-            </div>
+    </header>
+    <main>
+        <section class="promo">
+            <div class="wrapper promo__wrap">
+                <div class="promo__text">
+                    <h1 class="promo__title">the brand <span class="promo__subtitle">of luxerious<span
+                                class="promo__subtitle_red">
+                                fashion</span></span></h1>
+                </div>
 
-        </div>
-    </div>
-    <div class="offers">
-        <div class="wrapper">
-            <div class="offers__wrap">
-                <div class="offers__item offers__item_women">
-                    <p class="offers__title"><span class="top__title">30% OFF</span>FOR WOMEN</p>
-                </div>
-                <div class="offers__item offers__item_men ">
-                    <p class="offers__title"><span class="top__title">HOT DEAL</span>
-                        FOR MEN</p>
-                </div>
-                <div class="offers__item offers__item_kids">
-                    <p class="offers__title"><span class="top__title">NEW ARRIVALS</span>FOR KIDS </p>
-                </div>
-                <div class="offers__item offers__item_accesories">
-                    <p class="offers__title"><span class="top__title">LUXIROUS & TRENDY</span>ACCESORIES</p>
+            </div>
+        </section>
+        <section class="offers">
+            <h2 class="visually-hidden">Offers</h2>
+            <div class="wrapper">
+                <div class="offers__wrap">
+                    <div class="offers__item offers__item_women">
+                        <p class="offers__title"><span class="top__title">30% OFF</span>FOR WOMEN</p>
+                    </div>
+                    <div class="offers__item offers__item_men ">
+                        <p class="offers__title"><span class="top__title">HOT DEAL</span>
+                            FOR MEN</p>
+                    </div>
+                    <div class="offers__item offers__item_kids">
+                        <p class="offers__title"><span class="top__title">NEW ARRIVALS</span>FOR KIDS </p>
+                    </div>
+                    <div class="offers__item offers__item_accesories">
+                        <p class="offers__title"><span class="top__title">LUXIROUS & TRENDY</span>ACCESORIES</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="goods">
+        </section>
+    </main>
+    <section class="goods">
         <div class="wrapper">
             <h2 class="goods__title">Fetured Items</h2>
             <p class="goods__subtitle">Shop for items based on what we featured in this week</p>
@@ -139,13 +139,14 @@
             </div>
             <div class="goods__button_wrap"><button class="goods__button">Browse All Product</button></div>
         </div>
-    </div>
-    <div class="feature">
+    </section>
+    <section class="feature">
+        <h2 class="visually-hidden">Feature</h2>
         <div class="wrapper">
             <div class="feature__wrap">
                 <div class="feature__item">
                     <img src="img/track.svg" alt="Грузовки">
-                    <h4 class="feature__title">Free Delivery</h4>
+                    <h3 class="feature__title">Free Delivery</h3>
                     <p class="feature__description">Worldwide delivery on all. Authorit tively morph next-generation
                         innov tion with extensive
                         models.
@@ -153,7 +154,7 @@
                 </div>
                 <div class="feature__item">
                     <img src="img/sale.svg" alt="Скидки">
-                    <h4 class="feature__title">Sales & discounts</h4>
+                    <h3 class="feature__title">Sales & discounts</h3>
                     <p class="feature__description">Worldwide delivery on all. Authorit tively morph next-generation
                         innov tion with extensive
                         models.
@@ -161,7 +162,7 @@
                 </div>
                 <div class="feature__item">
                     <img src="img/crown.svg" alt="Корона">
-                    <h4 class="feature__title">Quality assurance</h4>
+                    <h3 class="feature__title">Quality assurance</h3>
                     <p class="feature__description">Worldwide delivery on all. Authorit tively morph next-generation
                         innov tion with extensive
                         models.
@@ -169,8 +170,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="feedback">
+    </section>
+    <section class="feedback">
         <div class="wrapper feedback__wrap">
             <div class="feedback__quote">
                 <img src="img/quote.png" alt="Девушка">
@@ -179,16 +180,16 @@
                 </p>
             </div>
             <div class="feedback__subscribe">
-                <h3 class="feedback__subscribe_title">subscribe </h3>
+                <h2 class="feedback__subscribe_title">subscribe </h2>
                 <p class="feedback__subscribe_subtitle">for our newletter and promotion</p>
                 <form action="#">
-                    <input type="text" class="feedback__subscribe_email" placeholder="Enter Your Email">
+                    <input type="email" class="feedback__subscribe_email" placeholder="Enter Your Email">
                     <input type="submit" class="feedback__subscribe_button" value="Subscribe">
                 </form>
             </div>
         </div>
-    </div>
-    <div class="footer">
+    </section>
+    <footer class="footer">
         <div class="wrapper footer__wrap">
             <div class="footer__col">
                 <p>© 2021 Brand All Rights Reserved.</p>
@@ -200,7 +201,7 @@
                 <img src="img/twit.svg" alt="twitter">
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 
