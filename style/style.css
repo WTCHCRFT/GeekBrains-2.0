@@ -152,11 +152,13 @@ background-image: url(../img/offers-img-1.jpg);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0;
 }
 .goods__item {
     max-width: 360px;
     margin-bottom: 30px;
     background: #F8F8F8;
+    list-style: none;
 }
 .goods__description {
     padding-left: 16px ;
@@ -165,6 +167,10 @@ background-image: url(../img/offers-img-1.jpg);
     font-size: 13px;
     line-height: 16px;
     text-transform: uppercase;
+}
+.goods__description_title a {
+    text-decoration: none;
+    color: #000;
 }
 .goods__description_text {
     font-weight: 300;
@@ -194,7 +200,6 @@ background-image: url(../img/offers-img-1.jpg);
 .feature {
     margin-top: 95px;
     background: #222224;
-    padding: 104px 0;
 }
 .feature__wrap {
     display: flex;
@@ -206,6 +211,19 @@ background-image: url(../img/offers-img-1.jpg);
     color: #FBFBFB;
     max-width: 360px;
     padding: 0 30px;
+    padding: 104px 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-y: 65px ;
+}
+.feature__item_track {
+    background-image: url(../img/track.svg);
+}
+.feature__item_sale {
+    background-image: url(../img/sale.svg);
+}
+.feature__item_crown {
+    background-image: url(../img/track.svg);
 }
 .feature__title {
     font-size: 19.96px;
@@ -221,6 +239,7 @@ background-image: url(../img/offers-img-1.jpg);
 .feedback {
     background-image: url(../img/footer-bg.jpg);
     background-size: cover;
+    background-position: left bottom;
 }
 .feedback__wrap {
     display: flex;
