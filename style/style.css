@@ -304,3 +304,18 @@ background-image: url(../img/offers-img-1.jpg);
     display: flex;
     align-items: center;
 }
+.footer__icon {
+    margin-left: 8px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.footer__icon:hover {
+    background: #F16D7F;
+}
+.footer__icon:hover path {
+    fill: #fff;
+}
