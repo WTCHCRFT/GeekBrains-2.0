@@ -319,3 +319,48 @@ background-image: url(../img/offers-img-1.jpg);
 .footer__icon:hover path {
     fill: #fff;
 }
+
+/* Catalog */
+
+.breadcumb {
+    background: #F8F3;
+    padding: 40px 0;
+
+}
+.breadcumb__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breadcumb__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+.breadcumb__list {
+    text-transform: uppercase;
+    
+}
+.breadcumb__link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+.breadcumb__link::after {
+    content: " / ";
+}
+.breadcumb__link_red {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+.breadcumb__link_red::after {
+    content: "";
+}
