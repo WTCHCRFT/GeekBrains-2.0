@@ -15,8 +15,15 @@
 
 <body>
     <!-- Почитать про 'Gap' -->
-    <!-- добавить свойства для фона в footer  -->
     <!-- Изменить иконки на декоротивные  -->
+    <!-- поменять иконки в footer  -->
+    <!-- сделать их ссылками  -->
+    <!-- Использовать правильную графику для иконок.
+            Доделать имеющиеся страницы и приступаем к верстке второй страницы (любой) Делать выпадающие элементы в каталоге не нужно, это будет в лк 5
+            Добавление блока видео вместо картинки товара на главной.
+            * Ознакомиться с официальной документацией http://getbootstrap.com/
+            ** Создание страницы вашего портфолио/о себе с использованием Twitter Bootstrap (В ПРОЕКТЕ МАГАЗИНА Bootstrap НЕ ИСПОЛЬЗУЕМ!)
+            Задания под * предназначены для учеников, которые справились с основной частью и могут выполнить дополнительное задание. -->
 
     <header class="header">
         <div class="wrapper header__wrap">
@@ -83,64 +90,64 @@
         <div class="wrapper">
             <h2 class="goods__title">Fetured Items</h2>
             <p class="goods__subtitle">Shop for items based on what we featured in this week</p>
-            <div class="goods__wrap">
-                <div class="goods__item">
+            <ul class="goods__wrap">
+                <li class="goods__item">
                     <div class="goods__image">
                         <img src="img/goods-img-1.jpg" alt="Куртка">
                     </div>
                     <div class="goods__description">
-                        <h3 class="goods__description_title">ellery x m'o capsule</h3>
+                        <h3 class="goods__description_title"><a href="#">ellery x m'o capsule</a></h3>
                         <p class="goods__description_text">Known for her sculptural takes on traditional tailoring,
                             Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                         <p class="goods__description_price">$52.00</p>
                     </div>
-                </div>
-                <div class="goods__item">
+                </li>
+                <li class="goods__item">
                     <div class="goods__image"> <img src="img/goods-img-2.jpg" alt="Куртка"> </div>
                     <div class="goods__description">
-                        <h3 class="goods__description_title">ellery x m'o capsule</h3>
+                        <h3 class="goods__description_title"><a href="#">ellery x m'o capsule</a></h3>
                         <p class="goods__description_text">Known for her sculptural takes on traditional tailoring,
                             Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                         <p class="goods__description_price">$52.00</p>
                     </div>
-                </div>
-                <div class="goods__item">
+                </li>
+                <li class="goods__item">
                     <div class="goods__image"> <img src="img/goods-img-3.jpg" alt="Куртка"> </div>
                     <div class="goods__description">
-                        <h3 class="goods__description_title">ellery x m'o capsule</h3>
+                        <h3 class="goods__description_title"><a href="#">ellery x m'o capsule</a></h3>
                         <p class="goods__description_text">Known for her sculptural takes on traditional tailoring,
                             Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                         <p class="goods__description_price">$52.00</p>
                     </div>
-                </div>
-                <div class="goods__item">
+                </li>
+                <li class="goods__item">
                     <div class="goods__image"> <img src="img/goods-img-4.jpg" alt="Куртка"> </div>
                     <div class="goods__description">
-                        <h3 class="goods__description_title">ellery x m'o capsule</h3>
+                        <h3 class="goods__description_title"><a href="#">ellery x m'o capsule</a></h3>
                         <p class="goods__description_text">Known for her sculptural takes on traditional tailoring,
                             Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                         <p class="goods__description_price">$52.00</p>
                     </div>
-                </div>
-                <div class="goods__item">
+                </li>
+                <li class="goods__item">
                     <div class="goods__image"> <img src="img/goods-img-5.jpg" alt="Куртка"> </div>
                     <div class="goods__description">
-                        <h3 class="goods__description_title">ellery x m'o capsule</h3>
+                        <h3 class="goods__description_title"><a href="#">ellery x m'o capsule</a></h3>
                         <p class="goods__description_text">Known for her sculptural takes on traditional tailoring,
                             Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                         <p class="goods__description_price">$52.00</p>
                     </div>
-                </div>
-                <div class="goods__item">
+                </li>
+                <li class="goods__item">
                     <div class="goods__image"> <img src="img/goods-img-6.jpg" alt="Куртка"> </div>
                     <div class="goods__description">
-                        <h3 class="goods__description_title">ellery x m'o capsule</h3>
+                        <h3 class="goods__description_title"><a href="#">ellery x m'o capsule</a></h3>
                         <p class="goods__description_text">Known for her sculptural takes on traditional tailoring,
                             Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                         <p class="goods__description_price">$52.00</p>
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
             <div class="goods__button_wrap"><button class="goods__button">Browse All Product</button></div>
         </div>
     </section>
@@ -148,24 +155,24 @@
         <h2 class="visually-hidden">Feature</h2>
         <div class="wrapper">
             <div class="feature__wrap">
-                <div class="feature__item">
-                    <img src="img/track.svg" alt="Грузовки">
+                <div class="feature__item feature__item_track">
+                    <!-- <img src="img/track.svg" alt="Грузовки"> -->
                     <h3 class="feature__title">Free Delivery</h3>
                     <p class="feature__description">Worldwide delivery on all. Authorit tively morph next-generation
                         innov tion with extensive
                         models.
                     </p>
                 </div>
-                <div class="feature__item">
-                    <img src="img/sale.svg" alt="Скидки">
+                <div class="feature__item feature__item_sale">
+                    <!-- <img src="img/sale.svg" alt="Скидки"> -->
                     <h3 class="feature__title">Sales & discounts</h3>
                     <p class="feature__description">Worldwide delivery on all. Authorit tively morph next-generation
                         innov tion with extensive
                         models.
                     </p>
                 </div>
-                <div class="feature__item">
-                    <img src="img/crown.svg" alt="Корона">
+                <div class="feature__item feature__item_crown">
+                    <!-- <img src="img/crown.svg" alt="Корона"> -->
                     <h3 class="feature__title">Quality assurance</h3>
                     <p class="feature__description">Worldwide delivery on all. Authorit tively morph next-generation
                         innov tion with extensive
