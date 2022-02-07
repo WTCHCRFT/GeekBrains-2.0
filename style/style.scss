@@ -453,3 +453,86 @@ body {
         color: $mine-color;
     }
 }
+
+.product {
+    &__slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 770px;
+        background: #F7F7F7;
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/product-arrow-back.svg);
+            width: 47px;
+            height: 47px;
+            left: 0;
+            top: 550px;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url(../img/product-arrow-front.svg);
+            width: 47px;
+            height: 47px;
+            right: 0;
+            top: 550px;
+        }
+
+    }
+    &__info {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 64px 0;
+        margin-top: -111px;
+        background: #fff;
+    }
+    &__title {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: $black-color;
+        padding-bottom: 12px;
+        border-bottom: 3px solid $mine-color;
+    }
+    &__name {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: $black-color;
+    }
+    &__disc {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: $black-color;
+        max-width: 555px;
+    }
+    &__price {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: $mine-color;
+    }
+    &__btn {
+        color: $mine-color;
+        border: 1px solid $mine-color;
+        padding: 15px 70px;
+        text-align: center;
+        background-color: transparent;
+        background-image: url(../img/product-img-cart.svg);
+        background-repeat: no-repeat;
+        background-position: 24px 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        cursor: pointer;
+    }
+}
