@@ -252,6 +252,7 @@ body {
   color: #F16D7F;
   border: 1px solid #F16D7F;
   background: none;
+  text-decoration: none;
 }
 
 .goods__button_wrap {
