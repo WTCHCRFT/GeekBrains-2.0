@@ -253,6 +253,13 @@ body {
   border: 1px solid #F16D7F;
   background: none;
   text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.goods__button:hover {
+  background: #F16D7F;
+  color: #fff;
 }
 
 .goods__button_wrap {
@@ -416,6 +423,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .footer__icon:hover {

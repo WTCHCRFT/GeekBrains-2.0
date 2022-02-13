@@ -187,6 +187,11 @@ body {
         border: 1px solid $mine-color;
         background: none;
         text-decoration: none;
+        transition: all 0.3s;
+        &:hover {
+            background: $mine-color;
+            color: #fff;
+        }
     }
     &__button_wrap {
         text-align: center;
@@ -307,6 +312,7 @@ body {
         background: #fff;
         justify-content: center;
         align-items: center;
+        transition: all 0.3s;
     }
     &__icon:hover {
         background: $mine-color;
